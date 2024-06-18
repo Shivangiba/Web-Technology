@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        a=parseInt(prompt("enter no. 1 :"));
+        b = parseInt(prompt("Enter no. 2 :"));
+        if(b>a){
+            temp=a;
+            b=a;
+            a=b;
+        }
+        for(i=a;i<=b;i++){
+            if(a%i==0 && b%i==0){
+                gcd = i;
+                
+            }
+            else{
+                document.write("no gcd:")
+            }
+            document.write(gcd);
+        }
+    </script>
+</body>
+</html>
